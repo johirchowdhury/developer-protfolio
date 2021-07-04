@@ -1,0 +1,70 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.top-header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.gradiant-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 10px;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 0px 20px 20px 0px;
+
+}
+#font-end-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, white, tomato) ;
+    border-image-slice: 1;
+}
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
